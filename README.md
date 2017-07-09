@@ -1,5 +1,5 @@
 <h1>pageSlider</h1>
-<p>pageSlider.js is the feature of full screen scrollable websites. 
+<p>pageSlider.js is the future of full screen scrollable websites. 
 </p>
 </br>
 </br>
