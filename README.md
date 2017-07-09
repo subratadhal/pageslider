@@ -1,5 +1,5 @@
 <h1>pageSlider</h1>
-<p>fadeSlider.js is the feature of full screen scrollable websites. 
+<p>pageSlider.js is the feature of full screen scrollable websites. 
 </p>
 </br>
 </br>
