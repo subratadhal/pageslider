@@ -26,7 +26,7 @@
                     <div class="page-content color1">
                         <div class="page-inner">
                             <h1>pageslider.js</h1>
-                            <p class="page1-para">Feature of full screen scrollable websites<br/>
+                            <p class="page1-para">Future of full screen scrollable websites<br/>
                             <a class="anclink" href="https://github.com/subratadhal/pageslider" target="_blank">Download</a></p>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                             <a class="github-link" href="https://github.com/subratadhal/pageslider" target="_blank">
                                 Find in Github
                             </a>
-                            <small>copyright © subratadhal.com</small>
+                            <small>copyright Â© subratadhal.com</small>
                         </div>
                     </div>
                 </div>
