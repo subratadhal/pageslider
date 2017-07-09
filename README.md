@@ -18,18 +18,16 @@
 <br />
 <h2>Usage</h2><br />
 <br />
-<br />
 <h3>Link files</h3>
-<pre class="line-numbers">
-<code class="language-html">
+<pre>
+<code>
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"&gt; &lt;/script&gt;
 &lt;script src="pageslider.min.js"&gt; &lt;/script&gt;</code>
 </pre> 
 <br />
-<br />
 <h3>Add Markup</h3>
-<pre class="line-numbers">
-<code class="language-html">
+<pre>
+<code>
 &lt;div id="pagewrapper"&gt;
     &lt;div data-pagetitle="Home" data-icon="fa fa-home"&gt;&lt;/div&gt;
     &lt;div data-pagetitle="Features" data-icon="fa fa-info"&gt;&lt;/div&gt;
@@ -40,15 +38,15 @@
 </pre>
 <br />
 <h3>Add CSS</h3>
-<pre class="line-numbers">
-<code class="language-css">
+<pre>
+<code>
 &lt;link href="style.css" rel="stylesheet" type="text/css" /&gt;
 </code>
 </pre>
 <br />
 <h3>Hook up the slideshow</h3>
-<pre class="line-numbers">
-<code class="language-html">
+<pre>
+<code>
 &lt;script&gt;
 $('#pagewrapper').pageslider();
 &lt;/script&gt;
@@ -56,8 +54,8 @@ $('#pagewrapper').pageslider();
 </pre>
 <br />
 <h3>Options you can customize</h3>
-<pre class="line-numbers">
-<code class="language-html">
+<pre>
+<code>
 $('#pagewrapper').pageslider({
         bullet: true,            //Show bullets true or false
         bulletthumb: true,       //Show bullet thumbs popup, true or false
