@@ -1,0 +1,224 @@
+#pagewrapper>div{ 
+width:100%;
+padding: 0px; 
+overflow:hidden; 
+margin: 0;
+border:0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+float: left;
+}
+.sl-buttons .prev,
+.sl-buttons .next{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top:50%;
+    margin-top: -15px;
+    z-index: 200;
+    cursor: pointer;
+    text-align: center;
+    background: transparent;
+    opacity: 0.5;
+    transition: all 0.5s ease-out;
+}
+.sl-buttons .prev{
+    left: 0;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: rotate(45deg);
+    margin-left: 20px;
+}
+.sl-buttons .next{
+    right: 0;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    transform: rotate(45deg);
+    margin-right: 20px;
+}
+.sl-buttons .prev:hover,
+.sl-buttons .next:hover{
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
+.sl-bullets{
+    float: right;
+    display: block;
+    max-width: 15px;
+    overflow: visible !important;
+    height: auto;
+    position: fixed;
+    top:50%;
+    right:10px;
+    z-index: 999;
+}
+.sl-bullets a{ 
+    overflow: visible !important;
+    width: 15px;
+    height: 15px;
+    float: left;
+    background: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    margin: 4px 0;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.sl-bullets a.active{
+    background: rgba(0,0,0,1);
+}
+.sl-bullets a span{
+    width: auto;
+    height: 20px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    right: 25px;
+    display: inline;
+    z-index: 9999;
+    border-radius: 3px;
+    padding: 2px 8px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    font-family: inherit;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(87,87,87,1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(87,87,87,1);
+    box-shadow: 0px 0px 2px 0px rgba(87,87,87,1);
+}
+.sl-bullets a span:after{
+    position: absolute;
+    top:7px;
+    right: -8px;
+    content: '';
+    width: 0; 
+    height: 0; 
+    border-left:  4px solid rgba(0,0,0,.5);
+    border-right: 4px solid transparent;
+    border-top:   4px solid transparent;
+    border-bottom:4px solid transparent;
+}
+.controlpoint{
+    width: 200px !important;
+    height: 200px;
+    position: fixed;
+    bottom: -100px;
+    left: 50%;
+    margin-left: -100px !important;
+    background: rgba(0,0,0,.2);
+    border-radius: 50%;
+    z-index: 1000;
+    transition: all 0.5s ease;
+}
+.controlpoint-content{
+    position: relative;
+}
+.c-line-horizontal{
+    width: 1px;
+    height: 55px;
+    background: rgba(0,0,0,.2);
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+.c-line-left{
+    width: 1px;
+    height: 55px;
+    background: rgba(0,0,0,.2);
+    position: absolute;
+    left: 155px;
+    top: 25px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg); /* Standard syntax */ 
+}
+.c-line-right{
+    width: 1px;
+    height: 55px;
+    background: rgba(0,0,0,.2);
+    position: absolute;
+    left: 46px;
+    top: 25px;
+    -ms-transform: rotate(315deg); /* IE 9 */
+    -webkit-transform: rotate(315deg); /* Safari */
+    transform: rotate(315deg); /* Standard syntax */ 
+}
+.control-next,
+.control-prev,
+.control-last,
+.control-first{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    font-size: 18px;
+    opacity: .3;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.control-next i,
+.control-prev i,
+.control-last i,
+.control-first i{
+    margin: 7px 0 0;
+}
+.control-next{
+    top: 17px;
+    left: 113px;
+}
+.control-prev{
+    top: 17px;
+    left: 55px;
+}
+.control-last{
+    top: 61px;
+    left: 154px;
+}
+.control-first{
+    top: 61px;
+    left: 15px;
+}
+.control-icon{
+    transition: all 0.5s ease;
+    font-size: 30px;  
+    color: #000;
+    text-align: center;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background: rgba(0,0,0,.2);
+    top: 55px;
+    left:55px;
+    position: absolute;
+    opacity: .3;
+    padding-top: 7px;
+}
+.controlpoint:hover{
+    background: rgba(0,0,0,.5);
+}
+.controlpoint:hover .control-next,
+.controlpoint:hover .control-prev,
+.controlpoint:hover .control-last,
+.controlpoint:hover .control-first{
+    transition: all 0.5s ease;
+    opacity: .9;
+    color: rgba(255,255,255,.7);
+}
+.controlpoint:hover .c-line-horizontal,
+.controlpoint:hover .c-line-left,
+.controlpoint:hover .c-line-right{
+    background: rgba(255,255,255,.2);
+}
+.controlpoint:hover .control-icon{
+    transition: all 0.2s ease;
+    opacity: 1;
+    padding-top: 4px;
+    font-size:36px;
+    color: rgba(255,255,255,.7);
+    background: rgba(255,255,255,.2);
+}
+@media(max-width:768px){
+    
+}
