@@ -1,17 +1,17 @@
 <h1>pageSlider</h1>
-<p>fadeSlider.js is a jQuery plugin that creates a responsive slider. It supports all major browse. Multiple effects make the slider popular and eye cache. Only dependency is jQuery and all images with same size. Major difference to other slider is the size 7kb minified. Thumbs popup is the very effective feature for fadeSlider. Support options to make it fully customizable. Its caption support all types of html tag element and customizable by CSS. 
+<p>fadeSlider.js is the feature of full screen scrollable websites. 
 </p>
 </br>
 </br>
 <h2>Features</h2><br />
 <ul class="feature">
     <li>Fully responsive</li>
-    <li><li>Easy to use plugin</li>
+    <li>Easy to use plugin</li>
     <li>Included JavaScript animation</li>
     <li>Bullets for every page with page title tooltip</li>
     <li>Control Supported</li>
     <li>6KB minified js</li>
-    <li><li>Font Awesome icons included</li>
+    <li>Font Awesome icons included</li>
     <li>Works in all major browsers for desktop, tablet and mobile</li>
 </ul>
 <br />
@@ -68,18 +68,18 @@ $('#pagewrapper').pageslider({
 </pre>
 <br />
 <br />
-<h2>Following are supported browser of fadeslider.js</h2>
+<h2>Following are supported browser of pageslider.js</h2>
 <br />
 <br />
 <ul class="feature fleft">
-<li>Firefox</li>
-<li>Safari </li>
-<li>Chrome</li>
-<li>Opera</li>
-<li>iOS Safari</li>
-<li>iOS Chrome</li>
-<li>Firefox Mobile</li>
-<li>Android</li>
+    <li>Firefox</li>
+    <li>Safari </li>
+    <li>Chrome</li>
+    <li>Opera</li>
+    <li>iOS Safari</li>
+    <li>iOS Chrome</li>
+    <li>Firefox Mobile</li>
+    <li>Android</li>
 </ul>
 <br />
 <br />
